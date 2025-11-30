@@ -60,15 +60,6 @@ header {
     width: 100%;
 }
 
-.logo-word {
-    display: inline-block;
-    position: absolute;
-    left: 10.5%;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .logo-word a {
     color: #fff;
     text-decoration: none;
