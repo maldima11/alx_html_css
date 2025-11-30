@@ -22,7 +22,6 @@ header {
     margin: auto;
     padding: 35px 0;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -65,6 +64,10 @@ header {
     text-decoration: none;
 }
 
+section {
+    height: 0;
+}
+
 .get-schooled {
     width: 100%;
     position: absolute;
@@ -77,16 +80,13 @@ header {
     font-weight: bold;
 }
 
-.sub-words {
-    display: relative;
-}
-
 .sub-word-1 {
     position: absolute;
     top: 40%;
     right: 54%;
     color: #fff;
     font-size: 15px;
+    padding: 0;
 }
 
 .sub-word-2 {
@@ -142,13 +142,13 @@ header {
     text-align: center;
     max-width: 500px;
     box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.3);
-    padding: 20px;
+    
 }
 
 .profile-1 {
     position: absolute;
     top: 70%;
-    left: 20%;
+    left: 18%;
     width: 180px;
     height: 180px;
     display: inline-block;
@@ -162,7 +162,7 @@ header {
 .profile-1 h3 {
     position: absolute;
     top: 110%;
-    left: 23%;
+    left: 18%;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
@@ -180,7 +180,7 @@ header {
 .profile-2 {
     position: absolute;
     top: 70%;
-    left: 37%;
+    left: 36%;
     width: 180px;
     height: 180px;
     display: inline-block;
@@ -194,7 +194,7 @@ header {
 .profile-2 h3 {
     position: absolute;
     top: 110%;
-    left: 23%;
+    left: 18%;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
@@ -212,7 +212,7 @@ header {
 .profile-3 {
     position: absolute;
     top: 70%;
-    right: 37%;
+    right: 36%;
     width: 180px;
     height: 180px;
     display: inline-block;
@@ -244,7 +244,7 @@ header {
 .profile-4 {
     position: absolute;
     top: 70%;
-    right: 20%;
+    right: 18%;
     width: 180px;
     height: 180px;
     display: inline-block;
@@ -271,4 +271,41 @@ header {
     font-size: 14px;
     color: #a1a0a0;
     padding: 15px 20px;
+}
+
+.quote {
+    max-width: auto;
+    height: 240px;
+    background-color: #c271ff;
+}
+
+.quote-image {
+    position: absolute;
+    top: 103.5%;
+    left: 30%;
+}
+
+.description blockquote {
+    position: absolute;
+    top: 107%;
+    left: 40%;
+    font-size: 18px;
+    color: #dbd9d9;
+}
+
+.description h3 {
+    position: absolute;
+    top: 112%;
+    left: 40%;
+    font-size: 18px;
+    color: #fff;
+}
+
+.description p {
+    position: absolute;
+    top: 114%;
+    left: 40%;
+    font-size: 18px;
+    color: #dbd9d9;
+    font-style: italic;
 }
