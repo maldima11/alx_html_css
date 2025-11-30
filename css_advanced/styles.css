@@ -5,13 +5,13 @@
 }
 
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Source Sans 3' 'Spin-Cycle-OT', sans-serif;
     font-size: 65.9%;
 }
 
 header {
     background-image: url(/images/Object.png);
-    width: auto;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -36,6 +36,7 @@ header {
     display: inline-block;
     margin: 0 20px;
     position: relative;
+    font-size: 14px;
 }
 
 .navbar ul li a {
@@ -48,7 +49,7 @@ header {
     content: '';
     height: 3px;
     width: 0;
-    background: #009870;
+    background: #c271ff;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -62,10 +63,15 @@ header {
 .logo-word {
     display: inline-block;
     position: absolute;
-    left: 11.5%;
+    left: 10.5%;
     color: #fff;
     font-size: 20px;
+    font-weight: bold;
+}
 
+.logo-word a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .get-schooled {
@@ -77,15 +83,201 @@ header {
     text-align: center;
     color: #fff;
     font-size: 150px;
+    font-weight: bold;
 }
 
-/* span {
-    width: 100%;
+.sub-words {
+    display: relative;
+}
+
+.sub-word-1 {
     position: absolute;
     top: 40%;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
+    right: 54%;
     color: #fff;
-    font-size: 20px;
-} */
+    font-size: 15px;
+}
+
+.sub-word-2 {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    color: #fff;
+    font-size: 15px;
+}
+
+.sub-word-3 {
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    color: #fff;
+    font-size: 15px;
+}
+
+#button-1 {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #c271ff;
+    color: white;
+    position: absolute;
+    top: 45%;
+    right: 46%;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.caption {
+    position: absolute;
+    top: 62%;
+    right: 45.2%;
+    font-size: 26px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+#learn {
+    color: #c271ff;
+}
+
+.profiles {
+    display: inline-block;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.profile-1 {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 100px;
+    background-image: url(images/1.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.profile-1 h3 {
+    position: absolute;
+    top: 110%;
+    left: 23%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.profile-1 p {
+    position: absolute;
+    top: 120%;
+    left: 5%;
+    font-size: 14px;
+    color: #a1a0a0;
+    padding: 10px 15px;
+}
+
+.profile-2 {
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 100px;
+    background-image: url(images/3.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.profile-2 h3 {
+    position: absolute;
+    top: 110%;
+    left: 23%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.profile-2 p {
+    position: absolute;
+    top: 120%;
+    left: 5%;
+    font-size: 14px;
+    color: #a1a0a0;
+    padding: 15px 20px;
+}
+
+.profile-3 {
+    position: absolute;
+    top: 70%;
+    right: 37%;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 100px;
+    background-image: url(images/2.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.profile-3 h3 {
+    position: absolute;
+    top: 110%;
+    left: 23%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.profile-3 p {
+    position: absolute;
+    top: 120%;
+    left: 5%;
+    font-size: 14px;
+    color: #a1a0a0;
+    padding: 15px 20px;
+}
+
+.profile-4 {
+    position: absolute;
+    top: 70%;
+    right: 20%;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 100px;
+    background-image: url(images/4.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.profile-4 h3 {
+    position: absolute;
+    top: 110%;
+    left: 23%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.profile-4 p {
+    position: absolute;
+    top: 120%;
+    left: 5%;
+    font-size: 14px;
+    color: #a1a0a0;
+    padding: 15px 20px;
+}
