@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: 'Source Sans 3' 'Spin-Cycle-OT', sans-serif;
     font-size: 65.9%;
 }
 
@@ -280,6 +279,7 @@ section {
 }
 
 .quote-image {
+    display: block;
     position: absolute;
     top: 103.5%;
     left: 30%;
@@ -308,4 +308,147 @@ section {
     font-size: 18px;
     color: #dbd9d9;
     font-style: italic;
+}
+
+.tutorials {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials h2 {
+    position: absolute;
+    top: 125%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.video-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 50%;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.video-wrapper div {
+    display: flex;
+    align-items:flex-start;
+}
+
+.video-content {
+    min-width: auto;
+    height: 120px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 8px;
+    gap: 10px;
+}
+
+.video-content h3 {
+    font-weight: bold;
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+.video-content p {
+    color: grey;
+    font-size: 12px;
+    text-indent: 20px;
+    line-height: 15px;
+}
+
+.play-button {
+    position: absolute;
+    top: 136.5%;
+    left: 26.4%;
+
+}
+
+.play-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.play-button-2 {
+    position: absolute;
+    top: 136.5%;
+    left: 41.4%;
+
+}
+
+.play-button-2 img {
+    width: 40px;
+    height: 40px;
+}
+
+.play-button-3 {
+    position: absolute;
+    top: 136.5%;
+    left: 56.3%;
+}
+
+.play-button-3 img {
+    width: 40px;
+    height: 40px;
+}
+
+.play-button-4 {
+    position: absolute;
+    top: 136.5%;
+    left: 71.3%;
+}
+
+.play-button-4 img {
+    width: 40px;
+    height: 40px;
+}
+
+.person-img {
+    display: flex;
+    flex-direction: row;
+    min-width: 215px;
+    align-items: flex-start;
+    margin-top: 100px;
+    padding-left: 0%;
+}
+
+.person-img img {
+    width: 25px;
+    height: 25px;
+}
+
+.person-img h4 {
+    color: #c271ff;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    min-width: 255px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rating img {
+    width: 90px;
+    margin-left: 20px;
+}
+
+.rating p {
+    color: #c271ff;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
 }
